@@ -1,0 +1,92 @@
+@media screen and (min-width: 1000px){
+  .hero-cointainer {
+    height: 100vh;
+    width: 1000px;
+    margin: 0 auto;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .hero-cointainer {
+    height: 100vh;
+  }
+  #projects {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1em 2em;
+  }
+
+  .project-1-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .project-1-img {
+    width: 100%;
+    order: 0;
+  }
+
+  .project-1-btn {
+    order: 2;
+    align-self: baseline;
+  }
+
+  .project-1-p {
+    order: 1;
+  }
+  .project-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1em 2em;
+  }
+
+  .project-2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .project-2-img {
+    width: 100%;
+    order: 0;
+  }
+
+  .project-2-btn {
+    order: 2;
+    align-self: baseline;
+  }
+
+  .project-2-p {
+    order: 1;
+  }
+  .project-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1em 2em;
+  }
+
+  .project-3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .project-3-img {
+    width: 100%;
+    order: 0;
+  }
+
+  .project-3-btn {
+    order: 2;
+    align-self: baseline;
+  }
+
+  .project-3-p {
+    order: 1;
+  }
+}

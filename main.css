@@ -1,0 +1,151 @@
+body {
+  margin: -2px 0px;
+  font-family: 'Open Sans', sans-serif;
+}
+
+#main {
+  height: 101vh;
+  background-image: url(images/background.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.layout {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.hero-content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.logo {
+  width: 12%;
+}
+
+span {
+  width:100%;
+}
+
+.headline-name {
+  font-size: 40px;
+  color: #fff;
+}
+
+.headline-job {
+  font-size: 20px;
+  color: #fff;
+  margin-top: -30px;
+}
+
+#projects {
+  display: flex;
+  max-width: 1000px;
+  margin: auto auto;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+}
+
+.project-1 {
+  display: flex;
+  /*flex-direction: column;*/
+  justify-content: space-evenly;
+  margin: 1em 2em;
+}
+
+.project-1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.project-1-img {
+  width: 100%;
+  order: 2;
+}
+
+.project-1-btn {
+  order: 1;
+  align-self: baseline;
+}
+
+.project-1-p {
+  order: 0;
+}
+
+.project-2 {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-around;*/
+  margin: 1em 1em;
+  /*border: solid black;*/
+}
+.project-3 {
+  display: flex;
+  flex-direction: column;
+  /*justify-content: space-around;*/
+  margin: 1em 1em;
+  /*border: solid black;*/
+}
+
+
+
+.project-2-img{
+  width: 100%;
+}
+
+.project-3-img{
+  width: 100%;
+}
+
+.learn-more{
+  display: flex;
+  justify-content: center;
+}
+
+.learn-more-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+
+.btn {
+  background: #FFF;
+  background-image: -webkit-linear-gradient(top, #FFF, #FFF);
+  background-image: -moz-linear-gradient(top, #FFF, #FFF);
+  background-image: -ms-linear-gradient(top, #FFF, #FFF);
+  background-image: -o-linear-gradient(top, #FFF, #FFF);
+  background-image: linear-gradient(to bottom, #FFF, #FFF);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  color: #000;
+  font-size: 16px;
+  padding: 10px 20px 10px 20px;
+  border: solid #000 2px;
+  text-decoration: none;
+  width: 15%;
+  margin: .5em 0em;
+}
+
+.btn:hover {
+  background: #000;
+  background-image: -webkit-linear-gradient(top, #000, #000);
+  background-image: -moz-linear-gradient(top, #000, #000);
+  background-image: -ms-linear-gradient(top, #000, #000);
+  background-image: -o-linear-gradient(top, #000, #000);
+  background-image: linear-gradient(to bottom, #000, #000);
+  color: #fff;
+  text-decoration: none;
+}
