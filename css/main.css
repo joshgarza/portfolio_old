@@ -155,6 +155,9 @@ span {
 .project-1-p {
   order: 0;
 }
+.project-1-title {
+  order: -1;
+}
 
 /*
   Project 2
@@ -185,6 +188,9 @@ span {
 .project-2-p {
   order: 1;
 }
+.project-2-title {
+  order: -1;
+}
 
 /*
   Project 3
@@ -213,5 +219,8 @@ span {
 }
 .project-3-p {
   order: 0;
+}
+.project-3-title {
+  order: -1;
 }
 
