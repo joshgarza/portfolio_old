@@ -6,13 +6,24 @@
   }
 }
 
-@media screen and (max-width: 600px){
-  .hero-cointainer {
-    height: 100vh;
+@media screen and (min-width: 601px) and (max-width: 999px) {
+/*  .hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }*/
+  p {
+    font-size: 22px;
   }
   #projects {
     display: flex;
     flex-direction: column;
+  }
+  .project-statement {
+    font-size: 20px;
+    text-align: center;
+    margin: 2em 0em 2em 0em;
   }
   .project-1 {
     display: flex;
@@ -27,16 +38,21 @@
     justify-content: center;
   }
   .project-1-img {
+    align-self: center;
     width: 100%;
     order: 0;
   }
 
   .project-1-btn {
+    width: 21%;
+    text-align: center;
+    margin: 2em 0em -2em 0em;
     order: 2;
-    align-self: baseline;
+    align-self: center;
   }
 
   .project-1-p {
+    text-align: center;
     order: 1;
   }
   .project-2 {
@@ -50,18 +66,24 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    /*align-items: center;*/
   }
   .project-2-img {
+    align-self: center;
     width: 100%;
     order: 0;
   }
 
   .project-2-btn {
+    width: 21%;
+    text-align: center;
+    margin: 2em 0em -2em 0em;
     order: 2;
-    align-self: baseline;
+    align-self: center;
   }
 
   .project-2-p {
+    text-align: center;
     order: 1;
   }
   .project-3 {
@@ -77,16 +99,150 @@
     justify-content: center;
   }
   .project-3-img {
+    align-self: center;
     width: 100%;
     order: 0;
   }
 
   .project-3-btn {
+    width: 21%;
+    text-align: center;
+    margin: 2em 0em -2em 0em;
     order: 2;
-    align-self: baseline;
+    align-self: center;
   }
 
   .project-3-p {
+    text-align: center;
+    order: 1;
+  }
+}
+
+@media screen and (max-width: 600px){
+  .hero-cointainer {
+    height: 100vh;
+  }
+  .hero-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .logo-small-view {
+    display: initial;
+    /*text-align: center;*/
+  }
+  .logo-large-view {
+    display: none;
+  }
+
+  .headline-name {
+    display: none;
+  }
+
+  .headline-job {
+    display: none;
+  }
+
+  #projects {
+    display: flex;
+    flex-direction: column;
+  }
+  .project-statement {
+    font-size: 20px;
+    text-align: center;
+    margin: 2em 0em 2em 0em;
+  }
+  .project-1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1em 2em;
+  }
+
+  .project-1-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .project-1-img {
+    align-self: center;
+    width: 100%;
+    order: 0;
+  }
+
+  .project-1-btn {
+    width: 21%;
+    text-align: center;
+    margin: 2em 0em -2em 0em;
+    order: 2;
+    align-self: center;
+  }
+
+  .project-1-p {
+    text-align: center;
+    order: 1;
+  }
+  .project-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1em 2em;
+  }
+
+  .project-2-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /*align-items: center;*/
+  }
+  .project-2-img {
+    align-self: center;
+    width: 100%;
+    order: 0;
+  }
+
+  .project-2-btn {
+    width: 21%;
+    text-align: center;
+    margin: 2em 0em -2em 0em;
+    order: 2;
+    align-self: center;
+  }
+
+  .project-2-p {
+    text-align: center;
+    order: 1;
+  }
+  .project-3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin: 1em 2em;
+  }
+
+  .project-3-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .project-3-img {
+    align-self: center;
+    width: 100%;
+    order: 0;
+  }
+
+  .project-3-btn {
+    width: 21%;
+    text-align: center;
+    margin: 2em 0em -2em 0em;
+    order: 2;
+    align-self: center;
+  }
+
+  .project-3-p {
+    text-align: center;
     order: 1;
   }
 }

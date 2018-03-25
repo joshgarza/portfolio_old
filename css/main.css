@@ -70,9 +70,14 @@ body {
   align-items: center;
   flex-direction: column;
 }
-.logo {
+.logo-large-view {
   width: 40%;
 }
+.logo-small-view {
+  width: 100%;
+  display: none;
+}
+
 span {
   width:100%;
 }
