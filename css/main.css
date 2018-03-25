@@ -2,7 +2,6 @@ body {
   margin: -2px 0px;
   font-family: 'Open Sans', sans-serif;
 }
-
 #main {
   height: 101vh;
   background-image: url(../images/golden_gate.jpg);
@@ -10,114 +9,11 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
 .layout {
   display: flex;
   flex-direction: column;
   justify-content: space-evenly;
-}
-
-.hero-content {
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-}
-
-.logo {
-  width: 12%;
-}
-
-span {
-  width:100%;
-}
-
-.headline-name {
-  font-size: 40px;
-  color: #fff;
-}
-
-.headline-job {
-  font-size: 20px;
-  color: #fff;
-  margin-top: -30px;
-}
-
-#projects {
-  display: flex;
-  max-width: 1000px;
-  margin: auto auto;
-  flex-direction: column;
-  /*justify-content: center;*/
-  align-items: center;
-}
-
-.project-1 {
-  display: flex;
-  /*flex-direction: column;*/
-  justify-content: space-evenly;
-  margin: 1em 2em;
-}
-
-.project-1-content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
-
-.project-1-img {
-  width: 100%;
-  order: 2;
-}
-
-.project-1-btn {
-  order: 1;
-  align-self: baseline;
-}
-
-.project-1-p {
-  order: 0;
-}
-
-.project-2 {
-  display: flex;
-  flex-direction: column;
-  /*justify-content: space-around;*/
-  margin: 1em 1em;
-  /*border: solid black;*/
-}
-.project-3 {
-  display: flex;
-  flex-direction: column;
-  /*justify-content: space-around;*/
-  margin: 1em 1em;
-  /*border: solid black;*/
-}
-
-
-
-.project-2-img{
-  width: 100%;
-}
-
-.project-3-img{
-  width: 100%;
-}
-
-.learn-more{
-  display: flex;
-  justify-content: center;
-}
-
-.learn-more-button {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  cursor: pointer;
-  font-size: 14px;
-  text-decoration: none;
-  color: #fff;
+  /*background-color: #e6e6e6;*/
 }
 
 .btn {
@@ -148,5 +44,169 @@ span {
   background-image: linear-gradient(to bottom, #000, #000);
   color: #fff;
   text-decoration: none;
+}
+
+/*
+*
+  Hero
+*
+*/
+
+.hero-container {
+  display: flex;
+  height: 101vh;
+  max-width: 1000px;
+  margin: 0px auto;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /*background-color: #e6e6e6;*/
+  /*background-size: cover;*/
+}
+
+.hero-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.logo {
+  width: 40%;
+}
+span {
+  width:100%;
+}
+.headline-name {
+  font-size: 40px;
+  color: #fff;
+}
+.headline-job {
+  font-size: 20px;
+  color: #fff;
+  margin-top: -30px;
+}
+.learn-more{
+  display: flex;
+  justify-content: center;
+}
+.learn-more-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: none;
+  color: #fff;
+}
+
+
+/*
+*
+  Projects
+*
+*/
+
+#projects {
+  display: flex;
+  max-width: 1000px;
+  margin: 0px auto;
+  flex-direction: column;
+  /*justify-content: center;*/
+  align-items: center;
+  /*background-color: #e6e6e6;*/
+  /*background-size: cover;*/
+}
+
+.project-statement {
+  text-align: center;
+  margin: 3em 2em 4em 0em;
+}
+
+/*
+  Project 1
+*/
+
+.project-1 {
+  display: flex;
+  /*justify-content: space-evenly;*/
+  margin: 6em 2em 0em 0em;
+  padding-bottom: 100px;
+  border-bottom: solid #e6e6e6;
+}
+.project-1-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-1-img {
+  max-width: 500px;
+  order: 2;
+}
+.project-1-btn {
+  width: 14%;
+  order: 1;
+  align-self: baseline;
+}
+.project-1-p {
+  order: 0;
+}
+
+/*
+  Project 2
+*/
+
+.project-2 {
+  display: flex;
+  justify-content: space-around;
+  margin: 6em 2em 0em 0em;
+  padding-bottom: 100px;
+  border-bottom: solid #e6e6e6;
+}
+.project-2-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-2-img {
+  max-width: 500px;
+  order: 0;
+  margin: 0em 0em;
+}
+.project-2-btn {
+  width: 18%;
+  order: 2;
+  align-self: baseline;
+}
+.project-2-p {
+  order: 1;
+}
+
+/*
+  Project 3
+*/
+
+.project-3 {
+  display: flex;
+  /*justify-content: space-evenly;*/
+  margin: 6em 2em 0em 0em;
+  padding-bottom: 100px;
+  border-bottom: solid #e6e6e6;
+}
+.project-3-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.project-3-img {
+  max-width: 500px;
+  order: 2;
+}
+.project-3-btn {
+  width: 14%;
+  order: 1;
+  align-self: baseline;
+}
+.project-3-p {
+  order: 0;
 }
 
