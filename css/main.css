@@ -17,13 +17,6 @@ body {
 
 .btn {
   background: #FFF;
-  background-image: -webkit-linear-gradient(top, #FFF, #FFF);
-  background-image: -moz-linear-gradient(top, #FFF, #FFF);
-  background-image: -ms-linear-gradient(top, #FFF, #FFF);
-  background-image: -o-linear-gradient(top, #FFF, #FFF);
-  background-image: linear-gradient(to bottom, #FFF, #FFF);
-  -webkit-border-radius: 28;
-  -moz-border-radius: 28;
   border-radius: 28px;
   color: #000;
   font-size: 16px;
@@ -36,11 +29,6 @@ body {
 
 .btn:hover {
   background: #000;
-  background-image: -webkit-linear-gradient(top, #000, #000);
-  background-image: -moz-linear-gradient(top, #000, #000);
-  background-image: -ms-linear-gradient(top, #000, #000);
-  background-image: -o-linear-gradient(top, #000, #000);
-  background-image: linear-gradient(to bottom, #000, #000);
   color: #fff;
   text-decoration: none;
 }
@@ -59,8 +47,6 @@ body {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  /*background-color: #e6e6e6;*/
-  /*background-size: cover;*/
 }
 
 .hero-content {
@@ -115,10 +101,7 @@ span {
   max-width: 1000px;
   margin: 0px auto;
   flex-direction: column;
-  /*justify-content: center;*/
   align-items: center;
-  /*background-color: #e6e6e6;*/
-  /*background-size: cover;*/
 }
 
 .project-statement {
@@ -132,7 +115,6 @@ span {
 
 .project-1 {
   display: flex;
-  /*justify-content: space-evenly;*/
   margin: 6em 2em 0em 0em;
   padding-bottom: 100px;
   border-bottom: solid #e6e6e6;
@@ -197,7 +179,6 @@ span {
 
 .project-3 {
   display: flex;
-  /*justify-content: space-evenly;*/
   margin: 6em 2em 0em 0em;
   padding-bottom: 100px;
   border-bottom: solid #e6e6e6;
