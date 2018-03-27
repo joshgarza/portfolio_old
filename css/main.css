@@ -4,7 +4,11 @@ body {
 }
 #main {
   height: 101vh;
-  background-image: url(../images/golden_gate.jpg);
+  /*
+    Background image provided by: pexels.com;
+    https://www.pexels.com/photo/architecture-bay-bridge-construction-417236
+  /*/
+  background-image: url(../images/golden_gate_bridge.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
