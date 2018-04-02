@@ -2,25 +2,23 @@ body {
   margin: -2px 0px;
   font-family: 'Open Sans', sans-serif;
 }
+
 #main {
   height: 101vh;
-  /*
-    Background image provided by: pexels.com;
-    https://www.pexels.com/photo/architecture-bay-bridge-construction-417236
-  /*/
   background-image: url(../images/golden_gate_bridge.jpg);
   background-position: center center;
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 .layout {
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: space-around;
 }
 
 .btn {
-  background: #FFF;
+  background: #fff;
   border-radius: 28px;
   color: #000;
   font-size: 16px;
@@ -59,9 +57,11 @@ body {
   align-items: center;
   flex-direction: column;
 }
+
 .logo-large-view {
   width: 40%;
 }
+
 .logo-small-view {
   width: 100%;
   display: none;
@@ -70,19 +70,23 @@ body {
 span {
   width:100%;
 }
+
 .headline-name {
   font-size: 40px;
   color: #fff;
 }
+
 .headline-job {
   font-size: 20px;
   color: #fff;
   margin-top: -30px;
 }
+
 .learn-more{
   display: flex;
   justify-content: center;
 }
+
 .learn-more-button {
   display: flex;
   flex-direction: column;
@@ -100,7 +104,7 @@ span {
 *
 */
 
-#projects {
+.projects {
   display: flex;
   max-width: 1000px;
   margin: 0px auto;
@@ -123,23 +127,28 @@ span {
   padding-bottom: 100px;
   border-bottom: solid #e6e6e6;
 }
+
 .project-1-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .project-1-img {
   max-width: 500px;
   order: 2;
 }
+
 .project-1-btn {
   width: 14%;
   order: 1;
   align-self: baseline;
 }
+
 .project-1-p {
   order: 0;
 }
+
 .project-1-title {
   order: -1;
 }
@@ -155,24 +164,29 @@ span {
   padding-bottom: 100px;
   border-bottom: solid #e6e6e6;
 }
+
 .project-2-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .project-2-img {
   max-width: 500px;
   order: 0;
   margin: 0em 0em;
 }
+
 .project-2-btn {
   width: 18%;
   order: 2;
   align-self: baseline;
 }
+
 .project-2-p {
   order: 1;
 }
+
 .project-2-title {
   order: -1;
 }
@@ -187,24 +201,28 @@ span {
   padding-bottom: 100px;
   border-bottom: solid #e6e6e6;
 }
+
 .project-3-content {
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
+
 .project-3-img {
   max-width: 500px;
   order: 2;
 }
+
 .project-3-btn {
   width: 14%;
   order: 1;
   align-self: baseline;
 }
+
 .project-3-p {
   order: 0;
 }
+
 .project-3-title {
   order: -1;
 }
-
