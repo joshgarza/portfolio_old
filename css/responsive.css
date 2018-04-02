@@ -1,4 +1,7 @@
-@media screen and (min-width: 1000px){
+/*
+  Desktop
+*/
+@media only screen and (min-width: 1000px){
   .hero-cointainer {
     height: 100vh;
     width: 1000px;
@@ -6,41 +9,55 @@
   }
 }
 
-@media screen and (min-width: 601px) and (max-width: 999px) {
+/*
+  Medium size screens
+*/
+@media only screen and (min-width: 601px) and (max-width: 999px) {
   p {
     font-size: 22px;
   }
+
   h3 {
     font-size: 26px;
     font-weight: bolder;
   }
 
-  #projects {
+/*
+  Projects
+*/
+  .projects {
     display: flex;
     flex-direction: column;
   }
+
   .project-statement {
     font-size: 30px;
     text-align: center;
     margin: 2em 0em 2em 0em;
   }
 
+/*
+  Project 1
+*/
   .project-1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 1em 2em;
   }
+
   .project-1-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .project-1-img {
     align-self: center;
     width: 100%;
     order: 0;
   }
+
   .project-1-btn {
     width: 21%;
     text-align: center;
@@ -48,32 +65,39 @@
     order: 2;
     align-self: center;
   }
+
   .project-1-p {
     text-align: center;
     order: 1;
   }
+
   .project-1-title {
     text-align: center;
     order: -1;
   }
 
+/*
+  Project 2
+*/
   .project-2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 1em 2em;
   }
+
   .project-2-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    /*align-items: center;*/
   }
+
   .project-2-img {
     align-self: center;
     width: 100%;
     order: 0;
   }
+
   .project-2-btn {
     width: 21%;
     text-align: center;
@@ -81,31 +105,39 @@
     order: 2;
     align-self: center;
   }
+
   .project-2-p {
     text-align: center;
     order: 1;
   }
+
   .project-2-title {
     text-align: center;
     order: -1;
   }
 
+/*
+  Project 3
+*/
   .project-3 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 1em 2em;
   }
+
   .project-3-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .project-3-img {
     align-self: center;
     width: 100%;
     order: 0;
   }
+
   .project-3-btn {
     width: 21%;
     text-align: center;
@@ -113,29 +145,37 @@
     order: 2;
     align-self: center;
   }
+
   .project-3-p {
     text-align: center;
     order: 1;
   }
+
   .project-3-title {
     text-align: center;
     order: -1;
   }
 }
 
-@media screen and (max-width: 600px){
+/*
+  Mobile CSS
+*/
+@media only screen and (max-width: 600px){
   .hero-cointainer {
     height: 100vh;
   }
+
   .hero-content {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
+
   .logo-small-view {
     display: initial;
   }
+
   .logo-large-view {
     display: none;
   }
@@ -147,36 +187,48 @@
   .headline-job {
     display: none;
   }
+
   h3 {
     font-size: 16px;
     font-weight: bolder;
   }
 
-  #projects {
+/*
+  Projects
+*/
+  .projects {
     display: flex;
     flex-direction: column;
   }
+
   .project-statement {
     font-size: 20px;
     text-align: center;
     margin: 2em 0em 2em 0em;
   }
+
+/*
+  Project 1
+*/
   .project-1 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 1em 2em;
   }
+
   .project-1-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .project-1-img {
     align-self: center;
     width: 100%;
     order: 0;
   }
+
   .project-1-btn {
     width: 21%;
     text-align: center;
@@ -184,31 +236,39 @@
     order: 2;
     align-self: center;
   }
+
   .project-1-p {
     text-align: center;
     order: 1;
   }
+
   .project-1-title {
     text-align: center;
     order: -1;
   }
 
+/*
+  Project 2
+*/
   .project-2 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 1em 2em;
   }
+
   .project-2-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
+
   .project-2-img {
     align-self: center;
     width: 100%;
     order: 0;
   }
+
   .project-2-btn {
     width: 21%;
     text-align: center;
@@ -216,32 +276,40 @@
     order: 2;
     align-self: center;
   }
+
   .project-2-p {
     text-align: center;
     order: 1;
   }
+
   .project-2-title {
     text-align: center;
     order: -1;
   }
 
+/*
+  Project 3
+*/
   .project-3 {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
+    justify-content: space-around;
     margin: 1em 2em;
   }
+
   .project-3-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
   }
+
   .project-3-img {
     align-self: center;
     width: 100%;
     order: 0;
   }
+
   .project-3-btn {
     width: 21%;
     text-align: center;
@@ -249,10 +317,12 @@
     order: 2;
     align-self: center;
   }
+
   .project-3-p {
     text-align: center;
     order: 1;
   }
+
   .project-3-title {
     text-align: center;
     order: -1;
