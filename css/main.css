@@ -4,11 +4,11 @@ body {
 }
 
 #main {
-  height: 101vh;
-  background-image: url(../images/golden_gate_bridge.jpg);
-  background-position: center center;
+  max-height: 80vh;
+  background-image: url(../images/golden_gate_bridge_medium.jpg);
+  background-position: top center;
   background-repeat: no-repeat;
-  background-size: cover;
+  background-size: contain;
 }
 
 .layout {
@@ -43,16 +43,18 @@ body {
 
 .hero-container {
   display: flex;
-  height: 101vh;
+  height: 80vh;
   max-width: 1000px;
-  margin: 0px auto;
+  margin: 60px auto;
   flex-direction: column;
-  justify-content: center;
+  justify-content: baseline;
   align-items: center;
 }
 
 .hero-content {
   display: flex;
+  max-width: 1000px;
+  margin: 0px auto;
   justify-content: center;
   align-items: center;
   flex-direction: column;

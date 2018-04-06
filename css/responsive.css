@@ -3,7 +3,7 @@
 */
 @media only screen and (min-width: 1000px){
   .hero-cointainer {
-    height: 100vh;
+    height: 60vh;
     width: 1000px;
     margin: 0 auto;
   }
@@ -13,6 +13,10 @@
   Medium size screens
 */
 @media only screen and (min-width: 601px) and (max-width: 999px) {
+  #main {
+    height: 60vh;
+  }
+
   p {
     font-size: 22px;
   }
@@ -20,6 +24,14 @@
   h3 {
     font-size: 26px;
     font-weight: bolder;
+  }
+
+  .hero-container {
+    display: block;
+    height: 60vh;
+    max-width: 1000px;
+    margin: 0px auto;
+    align-items: center;
   }
 
 /*
@@ -161,7 +173,12 @@
   Mobile CSS
 */
 @media only screen and (max-width: 600px){
-  .hero-cointainer {
+  #main {
+    height: 101vh;
+    background-color: #000;
+    background-image: none;
+  }
+  .hero-container {
     height: 100vh;
   }
 
